@@ -29,6 +29,7 @@ function validate(){
 		outer=1
 		check1.innerText="All good to go!"
 		check1.style.color="green";
+        alert("successful signup!");
 	}
 }
 form.addEventListener("submit",(e)=>{
